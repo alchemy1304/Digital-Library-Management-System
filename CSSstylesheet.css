@@ -1,0 +1,144 @@
+body
+{
+	background-image: url('http://localhost/DSW PROJ/wallpaper2.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #d2a679;
+	text-shadow:0px 0px 15px black;
+}
+.button
+{
+	opacity: .6;
+    background-color: rgb(39, 26, 12);
+    color: #ecffb3; 
+    border: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+	-webkit-transition: color 1s;
+	-webkit-transition: background-color 1s;
+}
+.button:hover
+{
+	opacity: .6;
+	background-color: #800000;
+	color: #ff9900;
+}
+
+input[type=text],input[type=email],input[type=number]
+{
+	padding-left: 20px;
+	background-color: rgb(236, 217, 198);
+	border: 2px;
+	height: 40px;
+	width: 400px;
+	border-radius: 7px;
+	font-size: 14pt;
+}
+input[type=password]
+{
+	padding-left: 20px;
+	background-color: rgb(236, 217, 198);
+	border: 2px;
+	height: 40px;
+	width: 400px;
+	border-radius: 7px;
+	font-size: 14pt;
+}
+div.frm
+{
+	align:content;
+	position:relative;
+	top:10vh;
+	margin:auto;
+	box-shadow: 0px 0px 20px 7px black;
+	border: 1px solid rgb(20, 13, 6);
+	background-color: rgba(78, 52, 24,.6);
+	width: 700px;
+}
+div.navbar
+{
+	z-index:2;
+	box-shadow: 0px 0px 20px 7px black;
+	background: -webkit-linear-gradient(rgb(156, 104, 48),rgb(137, 91, 42));
+	position: fixed;
+	top: 0;
+	left: 0px;
+	height: 8%;
+	width: 100%;
+}
+
+div.developers
+{
+	font-size:12;
+	width: 450px;
+	background-color:rgba(0,0,0,.5);
+	text-shadow:1px 1px 5px black;
+	border-radius: 3px
+}
+div.developers-content
+{
+	display:none;
+}
+div.developers:hover div.developers-content
+{
+	position: relative;
+	display: block;
+}
+div.about
+{
+	color: rgb(128, 0, 0);
+	background-color: rgba(255, 140, 26,.7);
+	font-style: italic;
+	box-shadow: 4px 4px 15px black;
+	height: 250px;
+	width: 300px;
+}
+div.page
+{
+	position: relative;
+	height: 250px;
+	width: 700px;
+	border-radius: 10px;
+	opacity:.5;
+	background-color:#000000;
+	box-shadow: 4px 4px 15px black;
+	
+	left: 0em;
+	top: -8em;
+	z-index: -1;
+}
+a:link , a:visited
+{
+	color: #ace600;
+	text-decoration: none;
+}
+table
+{
+	position:relative;
+	top:13vh;
+	margin:auto;
+	box-shadow:0px 0px 10px	2px black;
+	border-collapse:collapse;
+	align: center;
+	/*border: 5px solid rgba(0,0,0,.6);*/
+}
+th
+{
+	color:rgb(38, 26, 13);
+	padding: 10px;
+	background-color: rgba(172, 115, 57,.7);
+	height: 40px;
+}
+td
+{
+	border-right: 3px solid rgba(172, 115, 57,.7);
+	padding: 10px;
+	background-color: rgba(0,0,0,.7);
+	height: 40px;
+}
