@@ -1,2 +1,2 @@
-# Digital-Library-Management-System
+# Digital Library Management System
 The digital library management system is a suite of software that provides efficient management of books in a library. The system enables features like searching, adding, deleting the book records, and also provides authors and personnel, the administrative rights to make changes in the system in accordance to the availability. The software uses database management techniques and web development languages like HTML/HTML5, CSS, Bootstrap and JavaScript, PHP for frontend and backend development respectively.
